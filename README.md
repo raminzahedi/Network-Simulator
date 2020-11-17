@@ -1,14 +1,17 @@
 # Simple Network Simulator
 
 #### Created for Advanced Computer Network course at NMSU
-<br/>
+
 To run the program, type the following commands:
-        make
-        ./netsim <seed> <graphFileName>
+```sh
+$ make
+$ ./netsim <seed> <graphFileName>
+```
 If a file with the given file name does EXIST in the folder, the program reads the graph from it.
 If a file with the given file name dose NOT exist in the folder, the program CREATS a graph and stores it in a file with this
 file name, then reads the graph from it.
 There is a graph file named graph.txt in the folder, here is an example output of the program:
+```sh
 ramin@LAPTOP:~/Network Simulator$ ./netsim 3 graph.txt
 Graph was read from graph.txt
 Graph is completely connected.
@@ -24,7 +27,9 @@ Number for packets dropped at a router:
 Max: 4175
 Min: 0
 Avg: 1777
+```
 An example output of the program with a file name which doesn’t exist would be:
+```sh
 ramin@LAPTOP:~/Network Simulator$ ./netsim 3 newGraph.txt
 Created graph
 Generated edges
@@ -43,6 +48,7 @@ Number for packets dropped at a router:
 Max: 4001
 Min: 0
 Avg: 2713
+```
 When the program initiates, first it collects the seed and graphFileName arguments that will be used to create the graph.
 The graph will then be generated. Once this is done, the graph will be saved into a text file and immediately read. Then
 the shortest paths are calculated, packets are going to be sent throughout the network. A global virtual clock is used to
