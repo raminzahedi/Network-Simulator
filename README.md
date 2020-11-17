@@ -1,10 +1,10 @@
 # Simple Network Simulator
 
-###Created for Advanced Computer Network course at NMSU
+#### Created for Advanced Computer Network course at NMSU
 
 To run the program, type the following commands:
-make
-./netsim <seed> <graphFileName>
+      make
+      ./netsim <seed> <graphFileName>
 If a file with the given file name does EXIST in the folder, the program reads the graph from it.
 If a file with the given file name dose NOT exist in the folder, the program CREATS a graph and stores it in a file with this
 file name, then reads the graph from it.
