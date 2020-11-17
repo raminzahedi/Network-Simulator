@@ -1,6 +1,6 @@
 # Simple Network Simulator
 
-####Created for Advanced Computer Network course at NMSU
+###Created for Advanced Computer Network course at NMSU
 
 To run the program, type the following commands:
 make
