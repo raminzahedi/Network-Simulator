@@ -12,7 +12,7 @@ If a file with the given file name dose NOT exist in the folder, the program CRE
 file name, then reads the graph from it.
 There is a graph file named graph.txt in the folder, here is an example output of the program:
 ```sh
-ramin@LAPTOP:~/Network Simulator$ ./netsim 3 graph.txt
+$ ramin@LAPTOP:~/Network Simulator$ ./netsim 3 graph.txt
 Graph was read from graph.txt
 Graph is completely connected.
 Shortest Paths found.
@@ -30,7 +30,7 @@ Avg: 1777
 ```
 An example output of the program with a file name which doesn’t exist would be:
 ```sh
-ramin@LAPTOP:~/Network Simulator$ ./netsim 3 newGraph.txt
+$ ramin@LAPTOP:~/Network Simulator$ ./netsim 3 newGraph.txt
 Created graph
 Generated edges
 Graph is saved to newGraph.txt
